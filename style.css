@@ -22,9 +22,15 @@ h1{
 }
 
 nav{
-    height: 100%;
     background-color: #d1d1d1;
-    width: 298px;
+    /* width: 298px; */
+    width: 100%;
+    /* float: left; */  
+    height: 100%;
+}
+
+.menu {
+    padding: 0 !important;
 }
 
 li{
@@ -42,3 +48,63 @@ li{
 li:hover{
     background-color: #ffc700;
 }
+
+ .card-infos {
+    background-color: #666666;
+} 
+
+.treinamentos {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.container{
+    justify-content: center;
+    font-size: 30px;
+    padding: 45px 50px;
+    color: white;
+    margin: auto;
+}
+
+.container2 {
+    padding: 0px 50px;
+    margin-bottom: 20%;
+}
+
+.infos{
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+strong{
+    font-weight: bold;
+}
+
